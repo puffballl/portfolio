@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    height: 100%;
+    width: 175px;
+    background-color: black;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*transition: 0.5s;*/
+    /*overflow-x: hidden;*/
+    font-family: sans-serif;
+    position: fixed;
+    padding-top: 60px;
+    color: #65ed61;
+    /*border-right: darkgrey 6px;*/
+}
+
+.title{
+    margin: 0;
+}
+
+#portret {
+    vertical-align: middle;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/*.nav .closebtn {*/
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 25px;*/
+/*font-size: 36px;*/
+/*margin-left: 50px;*/
+/*}*/
+
+.nav a{
+    /*float: right;*/
+    margin: 10%;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+    }
+
+.nav a:hover{
+    color: #65ed61;
+}
+
+/*.nav a:active{*/
+    /*background-color: lightslategrey;*/
+    /*color: white;*/
+/*}*/
+
+main {
+    margin-left: 160px;
+    padding: 0 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
